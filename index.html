@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <title>sound identification</title>
+    </head>
+    <body>
+<div class="col-xs-12 text-center headeing_div">
+<h2>SOUND IDENTIFICATION WEB APP</h2>
+<p>NOTE-to make this web app work play sounds like meowing and barking</p>
+</div>
+<div class="main_div">
+<center>
+    <button class="btn btn-warning" onclick="startclassification()">start</button>
+    <h4 id="dogdetect">detcted-dog-0</h4>
+<h4 id="catdetect">detected-cat-0</h4>
+<h3 id="result-label">I Can Hear-</h3>
+<br>
+<img src="1stimg.png" id="img-all" width="250" height="250">
+</center>
+</div>
+<div class="copy_right_footer">Devloped by-priyansh</div>
+    </body>
+</html>

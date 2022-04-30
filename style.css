@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Shadows Into Light', cursive;
+}
+.headeing_div{
+    background-color: blue;
+}
+.headeing_div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main_div button{
+    margin-top: 20px;
+    width: 130px;
+    background-color: blueviolet;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 3;
+}
